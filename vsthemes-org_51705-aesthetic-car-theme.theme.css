@@ -1,0 +1,62 @@
+/**
+ * @name Aesthetic car theme - sh1nto
+ * @author sh1nto#0001
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @authorId 174868361040232448
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/Ge08rva.jpg');
+  --background-image-blur: 3px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 4px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/ErQTr8Q.gif');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.2;
+  --left-brightness: 0.2;
+  --middle-brightness: 0.4;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.6;
+  --gradient-primary: 65,25,137;
+  --gradient-secondary: 1,3,14;
+  --link-colour: #DA00FF;
+  --scrollbar-colour: rgb(125,57,57,0.05);
+  --gradient-direction: 26deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 9px;
+  --window-roundness: 20px;
+  --update-notice-1: none;
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 1px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 1px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 3px;
+  --rs-avatar-shape: 30%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
